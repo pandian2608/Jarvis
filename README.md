@@ -17,37 +17,16 @@ Flask: For creating a local web server.
 HTML/CSS/JavaScript: For front-end development.
 SpeechRecognition: For handling speech recognition.
 Google Dialogflow: For natural language understanding and chatbot functionalities.
-Setup Instructions
-Prerequisites
-Ensure you have the following installed on your system:
 
+Prerequisites
 Python 3.x
 pip (Python package installer)
 A webcam (for face recognition)
-Installation
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/ai-driven-jarvis.git
+git clone https://github.com/pandian2608/Jarvis
 cd ai-driven-jarvis
-Install Dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Set Up Face Recognition:
-
-Place the image of the known face in the project directory and name it known_face.jpg.
-Running the Project
-Start the Main Program:
-
-bash
-Copy code
-python run.py
 Access the Web Interface:
 
-The application will open in your default web browser.
+The application will open in our default web browser.
 Project Structure
 main.py: Main entry point of the application, initializes the Eel web interface and starts the local server.
 run.py: Manages multiprocessing to run Jarvis, hotword detection, and face recognition concurrently.
